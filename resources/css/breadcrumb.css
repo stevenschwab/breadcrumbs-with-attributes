@@ -1,0 +1,19 @@
+.breadcrumb li {
+    display: inline;
+  }
+  
+  .breadcrumb li.location::before {
+    color: gray;
+    content: ">";
+  }
+  
+  .breadcrumb a:hover {
+    color: blue;
+  }
+  
+  .breadcrumb .attribute::after {
+    content: "x";
+    color: red;
+    font-size: 10px;
+    vertical-align: super;
+  }
